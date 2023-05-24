@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  .hover-underline-animation::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    bottom: -2vh;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   
+  }
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .text-slide-in {
+    animation: slide-in 2s ease-out;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .hover-underline-animation::after{
+        background-color: white;
+    }
+  } 
+
+  .bg-art{
+    background-image: url('./components/assets/images/mandalas-g2551bc43f_1920.jpg');
+  }
