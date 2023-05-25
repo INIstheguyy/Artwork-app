@@ -8,33 +8,38 @@ import consult from './assets/images/art-consult.png'
 import reps from './assets/images/art-representation.jpg'
 import CarouselComponent from "./Carousel";
 import Footer from "./Footer";
+import bgVideo from './assets/images/welcome-video.mp4'
 
 const Home = () => {
     return ( 
         <div>
             <Navbar/>
-            <section id="welcome" className="bg-[#A5C9CA]">
-                <div className="flex items-center justify-center min-h-screen ">
-                    <div className="text-slide-in text-center m-3 shadow-lg rounded-md p-2 lg:w-fit">
-                    <h1 className="text-[#E7F6F2] font-heading2 font-medium lg:text-[28px] lg:py-[10px] pl-1 text-[18px] leading-[19px] tracking-[2.7px]">
-                        Welcome to <br className="block md:hidden" />
-                        <span className="text-[#395B64] font-heading1 md:text-[150px] font-medium text-4xl leading-[100px] md:py-[10px]">
-                        Jenna's art
-                        </span>
-                    </h1>
+            <section id="welcome" className="relative -z-50">
+            <div className="video-background">
+              <video autoPlay muted loop className="object-cover w-full">
+                <source src={bgVideo} type="video/mp4" />
+              </video>
+            </div>
+            <div className="flex flex-col items-center justify-center min-h-screen">
+            <h1 className="text-[#E7F6F2] font-heading2 font-medium lg:text-[28px] lg:py-[10px] pl-1 text-[18px] leading-[19px] tracking-[2.7px]">
+            Welcome to <br className="block md:hidden" />
+            <span className="text-[#A5C9CA] font-heading1 md:text-[150px] font-medium text-4xl leading-[100px] md:py-[10px]">
+            Jenna's art
+            </span>
+            </h1>
                     <p className="font-heading1 tracking-wider leading-[30px] text-[#E7F6F2] text-justify py-6 px-2 md:max-w-[600px] mx-auto lg:text-[26px] ">
                         Where art comes to life and inspires the world! At Jenna's art, we are passionate about the transformative power of art.
                         We believe that art has the ability to captivate, engage, and evoke emotions like no other medium. Whether you're an art enthusiast, a collector, or someone who simply appreciates the beauty of artistic expression,
                         you've come to the right place.
                     </p>
-                    </div>
-                </div>
-            </section>
+            </div>
+          </section>
+          
             <section className=" ">
                 <div className=" flex items-center justify-center min-h-screen p-2 rounded-lg  ">
                    <span className=" bg-[#E7F6F2] z-50 p-10 ">
                     <div className=" text-center ">
-                        <h1 className=" text-[#A5C9CA] font-heading1 font-semibold lg:text-[36px] lg:py-[10px] pl-1 text-[18px] leading-[19px] tracking-[2.7px]">Who is Jenna & What's Jenna's Art about?</h1>
+                        <h1 className=" text-[#2C3333] font-heading1 font-semibold lg:text-[36px] lg:py-[10px] pl-1 text-[18px] leading-[19px] tracking-[2.7px]">Who is Jenna & What's Jenna's Art about?</h1>
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <img src={icon} alt="" className="w-2/5 rounded-full my-5 md:w-2/5 lg:h-1/5" />
                             </div>
@@ -59,7 +64,7 @@ const Home = () => {
                 </div>
             </section>
             <section id="services" className=" bg-[#2C3333]">
-            <h1 className="  text-center py-[10px] text-[#E7F6F2] font-heading2 font-semibold lg:text-[34px] lg:py-[19px] pl-1 text-[18px] leading-[19px] tracking-[2.7px]">The Services we offer.</h1>
+            <h1 className="  text-center py-[10px] text-[#E7F6F2] font-heading2 font-semibold lg:text-[34px] lg:py-[19px] pl-1 text-[18px] leading-[19px] tracking-[2.7px]"> Services.</h1>
                   <div className=" flex flex-col flex-1 md:flex-row flex-wrap justify-around items-center py-3 md:py-10 ">
                     <div className="">
                         <Card imageSrc={sales} title={services.one.name} description={services.one.text} link={``}/>

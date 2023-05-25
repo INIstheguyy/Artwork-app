@@ -1,16 +1,4 @@
-import React, { useState } from 'react';
-
 export default function Example() {
-  const [currentPage, setCurrentPage] = useState(0);
-
-  const handlePrevious = () => {
-    setCurrentPage((prevPage) => prevPage - 1);
-  };
-
-  const handleNext = () => {
-    setCurrentPage((prevPage) => prevPage + 1);
-  };
-
   return (
     <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
@@ -40,23 +28,9 @@ export default function Example() {
           </figcaption>
         </figure>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 flex justify-center mb-6">
-        <button
-          onClick={handlePrevious}
-          disabled={currentPage === 0}
-          className="bg-indigo-600 text-white px-4 py-2 rounded-l hover:bg-indigo-700"
-        >
-          Previous
-        </button>
-        <button
-          onClick={handleNext}
-          className="bg-indigo-600 text-white px-4 py-2 rounded-r hover:bg-indigo-700"
-        >
-          Next
-        </button>
-      </div>
     </section>
-  );
+  )
 }
+
 
 

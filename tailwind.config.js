@@ -12,7 +12,8 @@ module.exports = {
       },
       fontFamily:{
         'heading1': 'Bellefair',
-        'heading2': 'Barlow Condensed'   
+        'heading2': 'Barlow Condensed',
+        'heading3': 'poppins'  
   
       },
       screens:{

@@ -11,7 +11,7 @@ const Card = ({ imageSrc, title, description, link }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-[#E7F6F2] my-5  ">
       <img src={imageSrc} alt={title} className="w-[300px] h-[300px]" />
-      <div className="px-6 py-4 max-w-[300px]  ">
+      <div className="px-6 py-4 max-w-[300px] h-fit  ">
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className={`${showFullText ? 'block' : 'truncate'} text-gray-700 text-base`}>
           {description}

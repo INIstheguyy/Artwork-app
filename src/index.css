@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 
 .hover-underline-animation {
@@ -19,7 +20,7 @@
     bottom: 0;
     left: 0;
     bottom: -2vh;
-    background-color: black;
+    background-color: white;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
    
@@ -39,6 +40,21 @@
       opacity: 1;
     }
   }
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+  }
+  
   
   .text-slide-in {
     animation: slide-in 2s ease-out;

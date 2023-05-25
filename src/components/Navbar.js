@@ -7,7 +7,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false)
     return ( 
         
-        <nav className=' flex justify-between items-center p-5 bg-[#2C3333]'>
+        <nav className=' flex justify-between items-center p-5 bg-[#395B64]'>
             <img src={logo} alt="" className=" w-[200px]" />
             <div className=" md:hidden flex flex-1 justify-end items-center">
                 <img onClick={() => setToggle((prev) => !prev)}  src={toggle ? close : menu} alt="menu" className="outline-none  cursor-pointer object-contain w-[28px] h-[28px]" />
@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className='relative h-full w-30 p-5'>
                 <div className='absolute inset-0 backdrop-filter backdrop-blur-lg'></div>
                 <div className='relative h-full'>
-                  <div className='flex flex-col justify-end items-start h-full text-[#E7F6F2] text-left'>
+                  <div className='flex flex-col justify-end items-start h-full text-[#E7F6F2] text-left z-50'>
                     <p className='my-5 font-normal text-base leading-tight tracking-wider hover-underline-animation' style={{ backdropFilter: 'none' }}>
                         <Link to='/'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'>00</span> HOME</Link> 
                     </p>
