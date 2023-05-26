@@ -7,6 +7,9 @@ const Gallery = () => {
     return ( 
         <div>
             <Navbar/>
+            <div>
+                <h1 className="">Recently sold out ARTs</h1>
+            </div>
             <Footer/>
         </div>
      );

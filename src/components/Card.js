@@ -1,45 +1,18 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 
-const Card = ({ imageSrc, title, description, link }) => {
-  const [showFullText, setShowFullText] = useState(false);
-
-  const toggleFullText = () => {
-    setShowFullText(!showFullText);
-  };
-
+const Card = ({ image, name, title, description }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-[#E7F6F2] my-5  ">
-      <img src={imageSrc} alt={title} className="w-[300px] h-[300px]" />
-      <div className="px-6 py-4 max-w-[300px] h-fit  ">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        <p className={`${showFullText ? 'block' : 'truncate'} text-gray-700 text-base`}>
-          {description}
-        </p>
+    <div className=" my-5 mx-2 bg-white shadow-lg h-fit  rounded-lg p-10 w-full md:w-1/2 max-w-[400px] font-heading3">
+      <img className="w-full h-auto mb-4 rounded-md max-h-[350px]" src={image} alt="Artwork" />
+      <h3 className="text-gray-800 font-semibold mb-4">{name}</h3>
+      <p className="text-gray-600">{description}</p>
+      <div className="flex justify-end mt-4">
+        <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">View Details</button>
       </div>
-      <div className="px-6 py-4">
-        {showFullText ? (
-          <button
-            className="text-blue-500 hover:underline focus:outline-none"
-            onClick={toggleFullText}
-          >
-            Show Less
-          </button>
-        ) : (
-          <Link to={link} className="text-blue-500 hover:underline">
-            Learn More
-          </Link>
-        )}
-      </div>
-      {showFullText && (
-        <div className="px-6 py-4">
-          {/* Render your full text component here */}
-          <p className="text-gray-700 text-base">{description}</p>
-        </div>
-      )}
     </div>
   );
 };
 
 export default Card;
+
 
