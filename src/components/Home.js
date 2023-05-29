@@ -35,17 +35,17 @@ const Home = () => {
                         <div className=" flex flex-col text-left md:flex-row">
                         <p className=" text-[#2C3333]  py-5 md:px-5 text-justify font-heading3">
                             <span className="  text-[#2C3333] font-heading1 font-normal lg:text-[28px] lg:py-[10px] pl-1 text-[22px] leading-[19px] tracking-[2.7px] underline-offset-2">Jenna:</span> <br className=" block"/>
-                            Jenna Wilson is a visionary entrepreneur and the CEO and founder of Jenna's Art, a leading artwork selling company based in the heart of the art world. With a passion for art and a keen business acumen, Jenna has carved a successful niche in the industry.
+                            Jenna Grey is a visionary entrepreneur and the CEO and founder of Jenna's Art, a leading artwork selling company based in the heart of the art world. With a passion for art and a keen business acumen, Jenna has carved a successful niche in the industry.
                             Born and raised in a family of artists, 
-                            Jenna developed a deep appreciation for the power of creativity from a young age. After completing her business degree, she recognized the need for a platform that could bridge the gap between talented artists and art enthusiasts worldwide. This realization led her to establish ArtScape, with the aim of revolutionizing the way art is discovered,
+                            Jenna developed a deep appreciation for the power of creativity from a young age. After completing her business degree, she recognized the need for a platform that could bridge the gap between talented artists and art enthusiasts worldwide. This realization led her to establish ArrtbyJenna, with the aim of revolutionizing the way art is discovered,
                             appreciated, and acquired.
                         </p>
                         <p className=" py-5 text-[#2C3333] font-heading3 text-justify md:px-5">
                             <span className="  text-[#2C3333] font-heading1 font-normal lg:text-[28px] lg:py-[10px] pl-1 text-[22px] leading-[19px] tracking-[2.7px] underline-offset-2">Her art:</span><br className=" block"/>
-                             Jenna's Art is a dynamic and innovative artwork selling company founded by Jenna Wilson, a visionary CEO with a deep passion for art.
-                             With a mission to revolutionize the art market, Jenna's Art serves as a leading platform for artists to showcase and sell their work to a global audience.At Jenna's art, artists and collectors find a vibrant community that celebrates creativity and supports artistic endeavors.
+                             ArrtbyJenna is a dynamic and innovative artwork selling company founded by Jenna Grey, a visionary CEO with a deep passion for art.
+                             With a mission to revolutionize the art market, ArrtbyJenna serves as a leading platform for artists to showcase and sell their work to a global audience.At ArrtbyJenna, artists and collectors find a vibrant community that celebrates creativity and supports artistic endeavors.
                              Through a carefully curated selection of artwork, 
-                             Jenna's Art offers a diverse range of styles, mediums, and genres, catering to art enthusiasts with varying tastes and preferences.
+                             ArrtbyJenna offers a diverse range of styles, mediums, and genres, catering to art enthusiasts with varying tastes and preferences.
                         </p>
                         </div>
                     </div>

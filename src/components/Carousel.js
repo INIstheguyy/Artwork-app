@@ -34,15 +34,12 @@ export default function Example() {
               </p>
             </blockquote>
             <figcaption className="mt-10">
-              <img
-                className="mx-auto h-10 w-10 rounded-full"
-                src={testimonials[currentSlide].image}
-                alt=""
-              />
+            
               <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-gray-900">
+                <div className="font-semibold text-gray-600 text-xl">
                   {testimonials[currentSlide].name}
                 </div>
+                
                 <svg
                   viewBox="0 0 2 2"
                   width={3}
@@ -52,6 +49,9 @@ export default function Example() {
                 >
                   <circle cx={1} cy={1} r={1} />
                 </svg>
+                <div className="font-semibold text-gray-600 text-xl">
+                  {testimonials[currentSlide].mail}
+                </div>
                 <div className="text-gray-600">
                   {testimonials[currentSlide].position}
                 </div>

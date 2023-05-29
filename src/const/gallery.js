@@ -10,7 +10,7 @@ export const Arts = [
             },
             {
                 id:'2',
-                image:'../components/assets/images/IMG-20230526-WA0002.jpg',
+                image:'/assets/images/IMG-20230526-WA0002.jpg',
                 image2:'',
                 text:'',
             },
