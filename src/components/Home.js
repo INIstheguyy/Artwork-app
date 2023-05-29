@@ -8,34 +8,24 @@ import salogo from './assets/images/sa-logo.svg'
 import  ugallery from './assets/images/Ugallery-logo1.svg'
 import artspace from './assets/images/logo_artspace.svg'
 import onexrun from './assets/images/1xrun-logo.svg'
+import WelcomeSection from "./Welcome";
 
 const Home = () => {
     return ( 
         <div>
             <Navbar/>
-            <section id="welcome" className="relative -z-50">
-            <div className="video-background">
-              <video autoPlay muted loop className="object-cover w-full">
-                <source src={bgVideo} type="video/mp4" />
-              </video>
-            </div>
-            <div className="flex flex-col items-center justify-center min-h-screen">
-            <h1 className="text-[#E7F6F2] font-heading2 font-medium lg:text-[28px] lg:py-[10px] pl-1 text-[18px] leading-[19px] tracking-[2.7px]">
-            Welcome to <br className="block md:hidden" />
-            <span className="text-[#A5C9CA] font-heading1 md:text-[150px] font-medium text-4xl leading-[100px] md:py-[10px]">
-            Jenna's art
-            </span>
-            </h1>
-                    <p className="font-heading3 tracking-wider leading-[30px] text-[#E7F6F2] text-justify py-6 px-2 md:max-w-[600px] mx-auto lg:text-[26px] ">
-                        Where art comes to life and inspires the world! At Jenna's art, we are passionate about the transformative power of art.
-                        We believe that art has the ability to captivate, engage, and evoke emotions like no other medium. Whether you're an art enthusiast, a collector, or someone who simply appreciates the beauty of artistic expression,
-                        you've come to the right place.
-                    </p>
-            </div>
-          </section>
+            <WelcomeSection
+            title="Welcome to"
+            subtitle="Jenna's art"
+            description="Where art comes to life and inspires the world! At Jenna's art, we are passionate about the transformative power of art.
+            We believe that art has the ability to captivate, engage, and evoke emotions like no other medium. Whether you're an art enthusiast, a collector, or someone who simply appreciates the beauty of artistic expression,
+            you've come to the right place.
+"
+            bgVideo={bgVideo}
+        />
           
             <section className=" ">
-                <div className=" flex items-center justify-center min-h-screen p-2 rounded-lg  ">
+                <div className=" flex items-center justify-center ">
                    <span className=" bg-[#E7F6F2] z-50 p-10 ">
                     <div className=" text-center ">
                         <h1 className=" text-[#2C3333] font-heading1 font-semibold lg:text-[36px] lg:py-[10px] pl-1 text-[18px] leading-[19px] tracking-[2.7px]">Who is Jenna & What's Jenna's Art about?</h1>
@@ -82,3 +72,10 @@ const Home = () => {
 }
  
 export default Home;
+
+
+
+                        
+
+
+                        

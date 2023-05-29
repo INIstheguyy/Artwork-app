@@ -6,7 +6,7 @@ const Terms = () => {
         <div>
             <Navbar/>
             <div>
-                <h1>TERMS OF SERVICE</h1>
+                <h1>HOW IT WORKS</h1>
             </div>
             <Footer/>
         </div>

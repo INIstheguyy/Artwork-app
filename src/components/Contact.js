@@ -103,25 +103,25 @@ import Footer from './Footer';
                     </button>
                 </form>
             </section>
-            <div className='bg-[#2C3333] text-white text-center'>
-                <h1 className=" font-heading1 lg:text-[36px] text-left ">Find Us</h1>
-                <div className=" flex lg:flex-row justify-around">
-                    <div className='text-left tracking-wider font-heading3 '>
-                        <h2 className="">Location:</h2>
+            <div className='bg-[#2C3333] text-white text-center py-5 pl-16 md:pl-0'>
+                <h1 className=" font-heading1 text-[40px]  font-medium underline md:text-center text-left mb-5">Find Us</h1>
+                <div className=" flex md:flex-row  flex-col justify-around">
+                    <div className='text-left tracking-wider font-heading3 py-5 md:py-0 '>
+                        <h2 className="text-2xl">Location:</h2>
                         <p className=""></p>
                     </div>
-                    <div className='text-left tracking-wider font-heading3 '>
-                        <h2 className="">Contact:</h2>
+                    <div className='text-left tracking-wider font-heading3 py-5 md:py-0'>
+                        <h2 className=" text-2xl">Contact:</h2>
                         <div className="">
-                            <p className=""></p>
-                            <p className=""></p>
+                            <p className="">Email:<span className=""></span></p>
+                            <p className="">Mobile:<span className=""></span></p>
                         </div>
                     </div>
-                    <div className='text-left tracking-wider font-heading3 '>
-                        <h2 className="">Hours:</h2>
+                    <div className='text-left tracking-wider font-heading3 py-5 md:py-0'>
+                        <h2 className="text-2xl">Hours:</h2>
                         <div className="">
-                            <p className="">Monday-Friday:<span className="">9:00AM - 7:00PM</span></p>
-                            <p className="">Saturday:<span className="">10:30AM - 8:00PM</span></p>
+                            <p className="">Monday-Friday:  <span className="">9:00AM - 7:00PM</span></p>
+                            <p className="">Saturday:  <span className="">10:30AM - 8:00PM</span></p>
                         </div>
                     </div>
                 </div>

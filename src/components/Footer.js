@@ -34,8 +34,8 @@ const Footer = () => {
        <div>
             <h1 className="py-2 font-semibold ">Community</h1>
             <ul>
-                <li className=" hover:text-[#A5C9CA] font-light py-1 "><Link to='/'>How it works</Link></li>
-                <li className=" hover:text-[#A5C9CA] font-light py-1 "><Link to='/terms'>Terms & Services</Link></li>
+                <li className=" hover:text-[#A5C9CA] font-light py-1 "><Link to='/terms'>How it works</Link></li>
+                <li className=" hover:text-[#A5C9CA] font-light py-1 "><Link to='/'>Terms & Services</Link></li>
                 <li className=" hover:text-[#A5C9CA] font-light py-1 "><Link to='/'>Partners</Link></li>
             </ul>
        </div>

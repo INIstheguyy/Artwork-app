@@ -13,7 +13,7 @@ const Navbar = () => {
                 <img onClick={() => setToggle((prev) => !prev)}  src={toggle ? close : menu} alt="menu" className="outline-none  cursor-pointer object-contain w-[28px] h-[28px]" />
                 <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-10 right-0 mx-2 my-4 rounded-xl  min-w-[140px] `}>
                 <div className='relative h-full w-30 p-5'>
-                <div className='absolute inset-0 backdrop-filter backdrop-blur-lg'></div>
+                <div className='absolute w-[125%] inset-0 bg-[#395B64] backdrop-filter backdrop-blur-lg'></div>
                 <div className='relative h-full'>
                   <div className='flex flex-col justify-end items-start h-full text-[#E7F6F2] text-left z-50'>
                     <p className='my-5 font-normal text-base leading-tight tracking-wider hover-underline-animation' style={{ backdropFilter: 'none' }}>
