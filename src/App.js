@@ -7,11 +7,14 @@ import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Terms from './components/Terms';
+import { FormspreeProvider } from '@formspree/react';
+
 
 function App() {
   return (
+    <FormspreeProvider project="{your-project-id}">
     <Router>
-       <div className={`${styles.boxWidth}`}>
+      <div className={`${styles.boxWidth}`}>
         <Routes>
           <Route path= '/' element={<Home/>}/>
           <Route path= '/services' element={<Services/>}/>
@@ -19,8 +22,9 @@ function App() {
           <Route path= '/contact' element={<Contact/>}/>
           <Route path= '/terms' element={<Terms/>}/>
         </Routes>
-       </div>
+      </div>
     </Router>
+    </FormspreeProvider>
   );
 }
 

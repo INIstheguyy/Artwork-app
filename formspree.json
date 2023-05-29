@@ -1,0 +1,8 @@
+{
+    "forms": {
+      "contactForm": {
+        "name": "Contact Form",
+        "actions": [{ "type": "email", "to": "{Komolafeinioluwa9@gmail.com}" }]
+      }
+    }
+  }

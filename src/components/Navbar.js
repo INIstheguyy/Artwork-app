@@ -17,16 +17,16 @@ const Navbar = () => {
                 <div className='relative h-full'>
                   <div className='flex flex-col justify-end items-start h-full text-[#E7F6F2] text-left z-50'>
                     <p className='my-5 font-normal text-base leading-tight tracking-wider hover-underline-animation' style={{ backdropFilter: 'none' }}>
-                        <Link to='/'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'>00</span> HOME</Link> 
+                        <Link to='/'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'></span> HOME</Link> 
                     </p>
                     <p className='my-5 font-normal text-base leading-tight tracking-wider hover-underline-animation' style={{ backdropFilter: 'none' }}>
-                      <Link to='/services'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'>01</span> SERVICES</Link> 
+                      <Link to='/services'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'></span> SERVICES</Link> 
                     </p>
                     <p className='my-5 font-normal text-base leading-tight tracking-wider hover-underline-animation' style={{ backdropFilter: 'none' }}>
-                      <Link to='/gallery'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'>02</span> GALLERY</Link>
+                      <Link to='/gallery'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'></span> GALLERY</Link>
                     </p>
                     <p className='my-5 font-normal text-base leading-tight tracking-wider hover-underline-animation' style={{ backdropFilter: 'none' }}>
-                    <Link to='/contact'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'>03</span> CONTACT</Link>
+                    <Link to='/contact'><span className='font-heading2 font-bold text-base leading-tight tracking-wider'></span> CONTACT</Link>
                     </p>
                   </div>
                 </div>
@@ -37,10 +37,10 @@ const Navbar = () => {
             <div className='md:flex hidden items-center '>
             <div className='list-container pr-[8vw] pl-[7vw] pt-[29px] pb-[28px] md:pl-[1vw] md:pr-[1vw] '>
                 <div className='list-none sm:list-none sm:flex  justify-end items-center flex-1 flex-wrap  bg-opacity-4 backdrop-blur-41  '>
-                    <p className='hover-underline-animation text-white  mr-10  h-[19px] text-base font-normal tracking-widest leading-tight font-heading2'> <Link to='/'> <span className='text-base font-semibold tracking-widest leading-tight'>00</span> HOME</Link></p>
-                    <p className='hover-underline-animation text-white  mr-10  h-[19px] text-base font-normal tracking-widest leading-tight font-heading2'> <Link to='/services'><span className='text-base font-semibold tracking-widest leading-tight'>01</span> SERVICES</Link> </p>
-                    <p className='hover-underline-animation text-white  mr-10  h-[19px] text-base font-normal tracking-widest leading-tight font-heading2'> <Link to='/gallery'> <span className='text-base font-semibold tracking-widest leading-tight'>02</span > GALLERY</Link></p>
-                    <p className='hover-underline-animation text-white  mr-16  h-[19px] text-base font-extralight tracking-widest leading-tight font-heading2'> <Link to='/contact'><span className='text-base font-bold tracking-widest leading-tight'>03</span> CONTACT</Link> </p>
+                    <p className='hover-underline-animation text-white  mr-10  h-[19px] text-base font-normal tracking-widest leading-tight font-heading2'> <Link to='/'> <span className='text-base font-semibold tracking-widest leading-tight'></span> HOME</Link></p>
+                    <p className='hover-underline-animation text-white  mr-10  h-[19px] text-base font-normal tracking-widest leading-tight font-heading2'> <Link to='/services'><span className='text-base font-semibold tracking-widest leading-tight'></span> SERVICES</Link> </p>
+                    <p className='hover-underline-animation text-white  mr-10  h-[19px] text-base font-normal tracking-widest leading-tight font-heading2'> <Link to='/gallery'> <span className='text-base font-semibold tracking-widest leading-tight'></span > GALLERY</Link></p>
+                    <p className='hover-underline-animation text-white  mr-16  h-[19px] text-base font-extralight tracking-widest leading-tight font-heading2'> <Link to='/contact'><span className='text-base font-bold tracking-widest leading-tight'></span> CONTACT</Link> </p>
                 </div>
             </div> 
         </div>
