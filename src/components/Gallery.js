@@ -3,7 +3,6 @@ import ArtCard from './Artcard';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import { Arts } from '../const/gallery';
-import art1 from '../components/assets/images/gallery1.webp'
 
 const Gallery = () => {
   return (
@@ -15,18 +14,18 @@ const Gallery = () => {
         </h1>
         <section id='sold'>
           <div>
-            <h2>Sold Arts</h2>
-            <div className=' flex flex-row flex-wrap'>
-              {Arts.find(section => section.title === 'Sold Arts').Pieces.map(piece => (
-                <ArtCard key={piece.id} img2={art1} description={piece.text} pricing={piece.pricing} />
+            <h2 className=' font-heading1 text-gray-500 font-semibold text-center underline my-2 text-3xl'>Recently Sold Arts</h2>
+            <div className=' flex flex-col items-center md:grid grid-cols-3 gap-4 '>
+              {Arts.find(section => section.title ==='Sold Arts').Pieces.map(piece => (
+                <ArtCard key={piece.id} img2={piece.image} description={piece.text} pricing={piece.pricing} />
               ))}
             </div>
           </div>
         </section>
         <section id='available'>
-          <div>
-            <h2>Available Arts</h2>
-            <div className='art-grid'>
+          <div className=' '>
+            <h2 className=' font-heading1 text-gray-500 font-semibold text-center underline my-2 text-3xl '>Available Arts</h2>
+            <div className='md:grid grid-cols-3 gap-4'>
               {Arts.find(section => section.title === 'Availabe Arts').Pieces.map(piece => (
                 <ArtCard key={piece.id} img2={piece.image} description={piece.text} pricing={piece.pricing} />
               ))}
