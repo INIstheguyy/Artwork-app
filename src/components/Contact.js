@@ -104,7 +104,7 @@ import Footer from './Footer';
                 </form>
             </section>
             <div className='bg-[#2C3333] text-white text-center py-5 pl-16 md:pl-0'>
-                <h1 className=" font-heading1 text-[40px]  font-medium underline md:text-center text-left mb-5">Find Us</h1>
+                <h1 className=" font-heading1 text-[40px]  font-medium  md:text-center text-left mb-5">Find Us</h1>
                 <div className=" flex md:flex-row  flex-col justify-around">
                     <div className='text-left tracking-wider font-heading3 py-5 md:py-0 '>
                         <h2 className="text-2xl">Location:</h2>

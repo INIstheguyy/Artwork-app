@@ -1,6 +1,5 @@
 import './index.css'
 import React from 'react';
-import styles from './Styles';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Services from './components/Services';
@@ -14,7 +13,7 @@ function App() {
   return (
     <FormspreeProvider project="{your-project-id}">
     <Router>
-      <div className={`${styles.boxWidth}`}>
+      <div >
         <Routes>
           <Route path= '/' element={<Home/>}/>
           <Route path= '/services' element={<Services/>}/>

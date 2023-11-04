@@ -18,7 +18,7 @@ const Services = () => {
             <Navbar/>
             <WelcomeSection
                 title="Here at"
-                subtitle="Jenna's art"
+                subtitle="Spenser's art"
                 description="We curate a diverse and curated selection of artworks from renowned artists and emerging talents alike. Our mission is to create a platform where art lovers can explore, discover, and acquire exceptional pieces that resonate with their unique taste and style."
                 bgVideo={bgVideo}
             />

@@ -34,12 +34,11 @@ export default function Example() {
               </p>
             </blockquote>
             <figcaption className="mt-10">
-            
               <div className="mt-4 flex items-center justify-center space-x-3 text-base">
                 <div className="font-semibold text-gray-600 text-xl">
                   {testimonials[currentSlide].name}
                 </div>
-                
+
                 <svg
                   viewBox="0 0 2 2"
                   width={3}
@@ -64,12 +63,8 @@ export default function Example() {
           >
             <ChevronRight size={20} />
           </button>
-
         </div>
       </div>
     </section>
   );
 }
-
-
-

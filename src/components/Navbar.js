@@ -1,4 +1,4 @@
-import logo from '../components/assets/images/logo.png'
+import logo from '../components/assets/images/spenser-logo-1.png'
 import menu from '../components/assets/images/menu.svg'
 import close from '../components/assets/images/close.svg'
 import { useState } from 'react'

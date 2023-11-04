@@ -6,7 +6,7 @@ const Terms = () => {
         <div>
             <Navbar/>
             <div className="p-5 text-justify">
-                <h1 className=" uppercase">Terms and Conditions of Use</h1>
+                <h1 className=" uppercase">Artbyspenser - Terms and Conditions</h1>
                 <div>
                     <h3 className="uppercase"> INTRODUCTION</h3>
                     <p>

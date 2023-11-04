@@ -1,6 +1,6 @@
 import React from "react";
 import styles from '../Styles'
-import logo from './assets/images/logo.png'
+import logo from './assets/images/spenser-logo-1.png'
 import facebook from './assets/images/facebook.svg'
 import twitter from './assets/images/twitter.svg'
 import instagram from './assets/images/instagram.svg'
@@ -44,7 +44,7 @@ const Footer = () => {
     <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3r45] '>
       <div>
         <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">Copyright
-      2022 ArtbyJenna_ . All Rights Reserved.</p>
+      2022 ArtbySpenser . All Rights Reserved.</p>
       </div>
       <div className='flex flex-row md:mt-0 mt-6'>
        <img src={facebook} alt="" className="w-[21px] h-[21px] object-contain cursor-pointer mr-6" />
